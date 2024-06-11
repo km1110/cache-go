@@ -11,7 +11,7 @@ go:
 	docker exec -it golang /bin/bash
 
 redis:
-	docker exec -it redis /bin/bash
+	docker compose exec -it redis bash
 
 ps:
 	docker ps
